@@ -20,6 +20,7 @@
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -29,7 +30,7 @@
   <section id="home" class="hero">
     <div class="hero-text">
       <h1>Hi, I’m Neha. I build AI that works in the real world.</h1>
-      <p class="lead">Data scientist and backend developer working with machine learning, deep learning, NLP and LLMs.</p>
+      <p class="lead">Data scientist and backend developer working with machine learning, deep learning, NLP and LLM agents.</p>
       <div class="actions">
         <a class="btn primary" href="#projects">View my work</a>
         <a class="btn" href="cv.pdf" download>Download CV</a>
@@ -47,8 +48,8 @@
     <div class="about-grid">
       <img class="photo" src="assets/profile.jpg" alt="Portrait of Neha Asati" width="260" height="260">
       <div>
-        <p>I’m an AI and machine learning intern at Combain Mobile AB in Sweden, where I work on algorithms for indoor positioning. I enjoy turning models into dependable services, from data preparation to an API that other people can use.</p>
-        <p>EDIT: Add your education here (degree, university, years) and one sentence about what you are looking for next.</p>
+        <p>I’m a backend developer and data scientist based in Sweden. At Combain Mobile AB I’m building an alarm management system with an AI chatbot. Before that I worked on Django REST APIs at Ecombooster and on machine learning models for fraud detection.</p>
+        <p>I hold an M.Tech and a B.Tech in Computer Science, and I have trained in Python programming for AI development in Sweden. I’m now focused on agentic AI with LangGraph, MCP, CrewAI and Agno. I speak Hindi, English and Swedish.</p>
       </div>
     </div>
   </section>
@@ -58,19 +59,18 @@
     <h2>Skills</h2>
     <div class="skills">
       <div>
-        <h3>Machine learning</h3>
-        <ul class="chips"><li>Machine learning</li><li>Deep learning</li><li>NLP</li><li>LLMs</li><li>LangChain</li></ul>
+        <h3>Machine learning and AI</h3>
+        <ul class="chips"><li>Machine learning</li><li>Deep learning (CNN, ANN)</li><li>NLP</li><li>LangGraph</li><li>MCP</li><li>CrewAI</li><li>Agno</li></ul>
       </div>
       <div>
         <h3>Backend</h3>
-        <ul class="chips"><li>Python</li><li>FastAPI</li><li>REST APIs</li><li>SQL</li></ul>
+        <ul class="chips"><li>Python</li><li>Django</li><li>Django REST Framework</li><li>REST APIs</li><li>SQL</li></ul>
       </div>
       <div>
-        <h3>Tools</h3>
-        <ul class="chips"><li>Git &amp; GitHub</li><li>TensorFlow</li><li>PyTorch</li></ul>
+        <h3>Libraries and tools</h3>
+        <ul class="chips"><li>TensorFlow</li><li>Keras</li><li>PyTorch</li><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>spaCy</li><li>Git &amp; GitHub</li><li>Jira</li></ul>
       </div>
     </div>
-    <p class="note">EDIT: keep only the skills you really use.</p>
   </section>
 
   <!-- PROJECTS -->
@@ -78,25 +78,24 @@
     <h2>Projects</h2>
     <div class="projects">
       <article class="project">
+        <h3>AI-powered SDLC automation</h3>
+        <p>A command-line assistant that guides a software project from requirements to code. It turns raw input into user stories, writes design documents, generates code and tests, and asks for human feedback at each stage.</p>
+        <p class="tech">Python, LangGraph, Groq API</p>
+        <a href="https://github.com/Nehaasati/SdlcAgenticProject" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project">
+        <h3>Agent web tracker</h3>
+        <p>An agent project built while learning Agno, CrewAI, Langflow and the Model Context Protocol.</p>
+        <p class="tech">Python, Agno, CrewAI, MCP</p>
+        <a href="https://github.com/Nehaasati/ExtellioAgentwebtracker" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project">
         <h3>Malaria detection</h3>
-        <p>A deep learning model that classifies cell images as infected or healthy. EDIT: add dataset, model and your results.</p>
-        <p class="tech">Python, TensorFlow</p>
-        <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
-      </article>
-      <article class="project">
-        <h3>Student management system</h3>
-        <p>A backend application for managing students and records. EDIT: describe the main features.</p>
-        <p class="tech">Python, FastAPI, SQL</p>
-        <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
-      </article>
-      <article class="project">
-        <h3>PDF chatbot</h3>
-        <p>Upload a PDF and ask questions about it using an LLM. EDIT: explain how it finds the answers.</p>
-        <p class="tech">Python, LangChain, FastAPI</p>
+        <p>A convolutional neural network that detects malaria in cell images. It uses a pre-trained VGG16 model with ImageNet weights and image augmentation to improve accuracy.</p>
+        <p class="tech">Python, TensorFlow, VGG16, CNN</p>
         <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
       </article>
     </div>
-    <p class="note">Replace each GitHub link with the exact repository link, for example https://github.com/Nehaasati/malaria_detection.</p>
   </section>
 
   <!-- EXPERIENCE -->
@@ -104,14 +103,45 @@
     <h2>Experience</h2>
     <ol class="timeline">
       <li>
-        <p class="when">2026</p>
-        <h3>AI &amp; Machine Learning Intern, Combain Mobile AB</h3>
-        <p>Developing AI, machine learning and deep learning algorithms for indoor positioning applications.</p>
+        <p class="when">September 2026 to present</p>
+        <h3>Backend Developer, Combain Mobile AB</h3>
+        <p>Building an alarm management system with an AI chatbot.</p>
       </li>
       <li>
-        <p class="when">EDIT</p>
-        <h3>Education or certification</h3>
-        <p>Add your degree, courses or certificates here.</p>
+        <p class="when">March to August 2024</p>
+        <h3>Backend Developer, Ecombooster, Sweden</h3>
+        <p>Built and maintained backend services in Django, designed API models with Django REST Framework, wrote automated tests, and added file export features in Python.</p>
+      </li>
+      <li>
+        <p class="when">September 2021 to April 2022</p>
+        <h3>Data Scientist and Tester, Iziss Technology, Indore, India</h3>
+        <p>Built and tuned machine learning models for credit card fraud detection, created data pipelines, worked with ANN and CNN models, and tested mobile apps on Android and iOS.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">2025</p>
+        <h3>Python programming for AI development, IT-Högskolan</h3>
+        <p>Final project: an AI-powered SDLC workflow with human feedback, built with LangGraph.</p>
+      </li>
+      <li>
+        <p class="when">2019 to 2020</p>
+        <h3>Data Scientist training, Data Science Authority, Hyderabad</h3>
+        <p>Thesis on malaria detection with a TensorFlow VGG16 convolutional neural network.</p>
+      </li>
+      <li>
+        <p class="when">2013 to 2016</p>
+        <h3>M.Tech in Computer Science, RGPV Bhopal</h3>
+        <p>Thesis on meta-heuristic feature selection for linear algorithms.</p>
+      </li>
+      <li>
+        <p class="when">2007 to 2011</p>
+        <h3>B.Tech in Computer Science, CSVTU Bhilai</h3>
       </li>
     </ol>
   </section>
@@ -121,9 +151,9 @@
     <h2>Contact</h2>
     <p>Want to work together or just say hello? Write to me.</p>
     <ul class="links">
-      <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      <li><a href="mailto:31asatineha@gmail.com">31asatineha@gmail.com</a></li>
       <li><a href="https://github.com/Nehaasati" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://www.linkedin.com/in/neha-asati-28aab959/" target="_blank" rel="noopener">LinkedIn</a></li>
     </ul>
   </section>
 </main>
@@ -133,3 +163,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
