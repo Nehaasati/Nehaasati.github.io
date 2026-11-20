@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neha Asati | Data Scientist &amp; Backend Developer</title>
+  <meta name="description" content="Portfolio of Neha Asati: AI, machine learning and backend development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#home">Neha Asati</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I’m Neha. I build AI that works in the real world.</h1>
+      <p class="lead">Data scientist and backend developer working with machine learning, deep learning, NLP and LLMs.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn" href="cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <canvas id="signalCanvas" width="520" height="460"></canvas>
+      <p class="caption">Three beacons, one estimated position.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About me</h2>
+    <div class="about-grid">
+      <img class="photo" src="assets/profile.jpg" alt="Portrait of Neha Asati" width="260" height="260">
+      <div>
+        <p>I’m an AI and machine learning intern at Combain Mobile AB in Sweden, where I work on algorithms for indoor positioning. I enjoy turning models into dependable services, from data preparation to an API that other people can use.</p>
+        <p>EDIT: Add your education here (degree, university, years) and one sentence about what you are looking for next.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>
+        <h3>Machine learning</h3>
+        <ul class="chips"><li>Machine learning</li><li>Deep learning</li><li>NLP</li><li>LLMs</li><li>LangChain</li></ul>
+      </div>
+      <div>
+        <h3>Backend</h3>
+        <ul class="chips"><li>Python</li><li>FastAPI</li><li>REST APIs</li><li>SQL</li></ul>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <ul class="chips"><li>Git &amp; GitHub</li><li>TensorFlow</li><li>PyTorch</li></ul>
+      </div>
+    </div>
+    <p class="note">EDIT: keep only the skills you really use.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="project">
+        <h3>Malaria detection</h3>
+        <p>A deep learning model that classifies cell images as infected or healthy. EDIT: add dataset, model and your results.</p>
+        <p class="tech">Python, TensorFlow</p>
+        <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project">
+        <h3>Student management system</h3>
+        <p>A backend application for managing students and records. EDIT: describe the main features.</p>
+        <p class="tech">Python, FastAPI, SQL</p>
+        <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project">
+        <h3>PDF chatbot</h3>
+        <p>Upload a PDF and ask questions about it using an LLM. EDIT: explain how it finds the answers.</p>
+        <p class="tech">Python, LangChain, FastAPI</p>
+        <a href="https://github.com/Nehaasati" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+    <p class="note">Replace each GitHub link with the exact repository link, for example https://github.com/Nehaasati/malaria_detection.</p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <p class="when">2026</p>
+        <h3>AI &amp; Machine Learning Intern, Combain Mobile AB</h3>
+        <p>Developing AI, machine learning and deep learning algorithms for indoor positioning applications.</p>
+      </li>
+      <li>
+        <p class="when">EDIT</p>
+        <h3>Education or certification</h3>
+        <p>Add your degree, courses or certificates here.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to work together or just say hello? Write to me.</p>
+    <ul class="links">
+      <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      <li><a href="https://github.com/Nehaasati" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Neha Asati</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
